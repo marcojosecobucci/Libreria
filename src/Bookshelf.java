@@ -55,7 +55,7 @@ public class Bookshelf {
             }
         }
         if (bookList.size() != 0) {
-            Collections.sort(bookList, new Comparator<Book>() {
+            bookList.sort(new Comparator<Book>() {
                 @Override
                 public int compare(Book o1, Book o2) {
                     return o1.getTitle().compareTo(o2.getTitle());
