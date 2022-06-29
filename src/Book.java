@@ -1,5 +1,5 @@
 
-public class Book{
+public class Book {
     // Attributes
     private final String id;
     private static int idN = 0;

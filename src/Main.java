@@ -7,6 +7,7 @@ public class Main {
         Book b2 = new Book("La Volpe", "Parla di un giovane hacker", a1);
         Book b3 = new Book("HackTown", "Hack Town", a2);
         Book b4 = new Book("AAARegole", "Regole della programmazione", a1);
+
         bookshelf.addNewBook(b1);
         bookshelf.addNewBook(b2);
         bookshelf.addNewBook(b3);
