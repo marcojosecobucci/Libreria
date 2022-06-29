@@ -12,6 +12,7 @@ public class Main {
         bookshelf.addNewBook(b2);
         bookshelf.addNewBook(b3);
         bookshelf.addNewBook(b4);
+        bookshelf.addNewBook(b4);
 
         bookshelf.searchBookById("b1");
         System.out.println();
@@ -24,5 +25,7 @@ public class Main {
         System.out.println(bookshelf);
         bookshelf.removeBook(b2);
         System.out.println(bookshelf);
+        System.out.println();
+        a1.stampaLibri();
     }
 }

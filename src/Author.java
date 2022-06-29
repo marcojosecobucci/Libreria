@@ -18,11 +18,22 @@ public class Author {
     }
 
     // Getter and Setter
-
+    public String getId() {
+        return id;
+    }
     // Methods
 
     public void addBookInAuthor(Book b) {
+        for (Book book : books) {
+            if (book.getId().equals(b.getId())) {
+                return;
+            }
+        }
         books.add(b);
+    }
+
+    public void stampaLibri() {
+        System.out.println(books);
     }
 
     public String getName() {
