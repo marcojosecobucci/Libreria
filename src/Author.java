@@ -18,9 +18,7 @@ public class Author {
     }
 
     // Getter and Setter
-    public String getId() {
-        return id;
-    }
+
     // Methods
 
     public void addBookInAuthor(Book b) {

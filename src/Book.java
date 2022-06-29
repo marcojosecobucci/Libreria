@@ -2,7 +2,7 @@
 public class Book {
     // Attributes
     private final String id;
-    private static int idN = 0;
+    private static int idN;
 
     private final String title;
     private final String synopsis;
