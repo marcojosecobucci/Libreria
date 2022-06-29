@@ -24,12 +24,9 @@ public class Author {
     // Methods
 
     public void addBookInAuthor(Book b) {
-        for (Book book : books) {
-            if (book.getId().equals(b.getId())) {
-                return;
-            }
+        if (!books.contains(b)) {
+            books.add(b);
         }
-        books.add(b);
     }
 
     public void stampaLibri() {
